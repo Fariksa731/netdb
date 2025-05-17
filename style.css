@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+  direction: rtl;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.card {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+img {
+  max-width: 100%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+th, td {
+  border: 1px solid #aaa;
+  padding: 8px;
+  text-align: center;
+}
